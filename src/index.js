@@ -20,7 +20,9 @@ const hbs = exphbs.create({
   // partialsDir: path.join(__dirname, "resources\\views\\partials"),
 });
 
-//HTTP 
+app.use(express.static(path.join(__dirname,"public")));
+
+//HTTP logger
 app.use(morgan('combined'))
 
 //template engine
