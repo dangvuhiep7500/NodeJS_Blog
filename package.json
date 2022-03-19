@@ -21,11 +21,16 @@
   "dependencies": {
     "express": "^4.17.3",
     "express-handlebars": "^6.0.3",
+    "handlebars": "^4.7.7",
+    "mongoose": "^6.2.7",
     "reload": "^3.2.0"
   },
   "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.5",
     "morgan": "^1.10.0",
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
   }
 }
